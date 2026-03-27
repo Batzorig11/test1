@@ -8,31 +8,32 @@
   </head>
   <body>
     <div class="calculator">
-      <input type="text" id="display" disabled />
+      <input type="text" class="display" disabled />
 
       <div class="buttons">
-        <button onclick="teneg()">AC</button>
-        <button onclick="appendValue('/')">/</button>
-        <button onclick="appendValue('*')">*</button>
-        <button onclick="appendValue('-')">-</button>
+        <button onclick="Raem()">AC</button>
+        <button onclick="Mgl('/')">/</button>
+        <button onclick="Mgl('*')">*</button>
+        <button onclick="Mgl('-')">-</button>
 
-        <button onclick="appendValue('7')">7</button>
-        <button onclick="appendValue('8')">8</button>
-        <button onclick="appendValue('9')">9</button>
-        <button onclick="appendValue('+')">+</button>
+        <button onclick="too('7')">7</button>
+        <button onclick="too('8')">8</button>
+        <button onclick="too('9')">9</button>
+        <button onclick="Mgl('+')">+</button>
 
-        <button onclick="appendValue('4')">4</button>
-        <button onclick="appendValue('5')">5</button>
-        <button onclick="appendValue('6')">6</button>
-        <button onclick="calculate()">=</button>
+        <button onclick="too('4')">4</button>
+        <button onclick="too('5')">5</button>
+        <button onclick="too('6')">6</button>
+        <button onclick="Mgl('=')">=</button>
 
-        <button onclick="appendValue('1')">1</button>
-        <button onclick="appendValue('2')">2</button>
-        <button onclick="appendValue('3')">3</button>
-        <button onclick="appendValue('+/-')">+/-</button>
+        <button onclick="too('1')">1</button>
+        <button onclick="too('2')">2</button>
+        <button onclick="too('3')">3</button>
+        <button onclick="Mgl('+/-')">+/-</button>
 
-        <button onclick="appendValue('0')" class="zero">0</button>
-        <button onclick="appendValue('.')">.</button>
+        <button onclick="too('0')" class="zero">0</button>
+        <button onclick="Mgl('.')">.</button>
+        <button onclick="Raem('clear')">clear</button>
       </div>
     </div>
     <script src="main.js"></script>
