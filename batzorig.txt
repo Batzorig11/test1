@@ -1,1 +1,6 @@
 bugdeeree uursdiinhuu file deer yu ch hamaaq uurchlult oruulchih.
+tged 
+git add .
+git commit -m "message bichne yu ch bsan bolno"
+git push
+git pull
