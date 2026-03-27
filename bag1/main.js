@@ -41,10 +41,7 @@ function play(my) {
 }
 
 function getImg(type) {
-  if (type === "haich")
-    return "url('https://cdn-icons-png.flaticon.com/512/254/254198.png')";
-  if (type === "chuluu")
-    return "url('https://cdn-icons-png.flaticon.com/512/616/616494.png')";
-  if (type === "daawuu")
-    return "url('https://cdn-icons-png.flaticon.com/512/254/254204.png')";
+  if (type === "haich") return "url('zurgnuud/haic.png')";
+  if (type === "chuluu") return "url('zurgnuud/chuluu.png')";
+  if (type === "daawuu") return "url('zurgnuud/daawuu.png')";
 }
