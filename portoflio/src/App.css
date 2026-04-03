@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+body {
+  padding: 0px 40px;
+  background-color: black;
+  margin: 0px;
+  font-size: 20px;
+}
+
+/* ---------------- HEADER SECTION ---------------- */
+
+.header {
+  display: flex;
+  padding: 50px 70px;
+  background-color: #222831;
+  color: #eeeeee;
+  justify-content: space-between;
+  border: 1px grey solid;
+}
+.header2 {
+  display: flex;
+  gap: 10px;
+}
+.header1 {
+  font-weight: bold;
+}
+
+.header2 button {
+  background-color: transparent;
+  color: #eeeeee;
+  border: none;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+/* ---------------- HERO SECTION ---------------- */
+
+.hero {
+  display: flex;
+  padding: 50px 70px;
+  justify-content: space-between;
+  background-color: #222831;
+  height: 800px;
+  border: 1px grey solid;
+  padding-top: 50px;
+}
+
+.sum {
+  padding-top: 50px;
+}
+
+.hero1 {
+  display: flex;
+}
+
+.text {
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 0.01px;
+  display: flex;
+  flex-direction: column;
+}
+.white {
+  color: #eeeeee;
+}
+.blue {
+  color: #00adb5;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons button {
+  border-radius: 40px;
+  padding: 10px 30px;
+  font-size: 1em;
+  color: #eeeeee;
+  border: none;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.bluebutton {
+  background-color: #00adb5;
+}
+.blackbutton {
+  background-color: #393e46;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.blackbutton img {
+  width: 20px;
+  color: #ffffff;
+}
+
+.hero2 {
+  position: relative;
+}
+
+.urd {
+  position: relative;
+  z-index: 10;
+  transform: translateY(150px) translateX(-150px) scale(1.5);
+}
+
+.ard {
+  position: absolute;
+  left: 100px;
+  top: -130px;
+  opacity: 0.5;
+  transform: translateY(150px) translateX(-150px) scale(1.5);
+}
+
+.munkhbayar {
+  background-color: black;
+  height: 20px;
+  width: 260px;
+  border-radius: 50%;
+  position: absolute;
+  left: 40px;
+  top: 360px;
+  transform: translateY(150px) translateX(-150px) scale(1.5);
+}
